@@ -31,17 +31,8 @@ This script offers several configurable options to tailor its functionality to y
 ## Installation
 To run the XENFT Finder script, you need Python installed on your system, along with a few additional libraries. Follow these steps to set up the environment:
 
-1. **Install Python**: If you don't have Python installed, download and install it from [python.org](https://www.python.org/downloads/). This script is compatible with Python 3.6 and later.
-
-2. **Set Up a Virtual Environment** (Optional but recommended):
-   - Open a terminal (or command prompt).
-   - Navigate to the project directory.
-   - Run `python -m venv venv` to create a virtual environment named `venv`.
-   - Activate the virtual environment:
-     - On Windows, run: `venv\Scripts\activate`.
-     - On macOS/Linux, run: `source venv/bin/activate`.
-
-3. **Install Dependencies**:
+1. **Install Python**: If you don't have Python installed, download and install it from [python.org](https://www.python.org/downloads/). This script should be compatible with Python 3.6 and later (tested on 3.11)
+2. **Install Dependencies**:
    - Ensure you are in the project directory where the `requirements.txt` file is located.
    - Run `pip install -r requirements.txt` to install the required Python libraries.
 
