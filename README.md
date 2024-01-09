@@ -9,6 +9,9 @@ XENFT Finder is a Python script designed to help users programmatically find the
 - Sorts XENFTs based on user-defined criteria.
 - Presents data in an easy-to-read table format.
 
+## Screenshot
+![image](https://github.com/JozefJarosciak/Blur_XENFT_Finder/assets/3492464/dc76476f-8601-49a5-abbe-eb00b57d2da4)
+
 ## Configurable Options
 This script offers several configurable options to tailor its functionality to your needs:
 - `ETH_TO_USD`: Set to `False` to use a fixed ETH to USD conversion rate. Default is `True`.
@@ -24,10 +27,6 @@ This script offers several configurable options to tailor its functionality to y
   - `"ratio"`: Sorts XENFTs based on the ratio of the XEN value in USD to the price in USD. A higher ratio indicates a potentially more valuable XENFT relative to its cost. This is the default sorting criterion.
 - `CLASS_VALUES`: Array of XENFT classes to be considered.
 - `MATURITY_YEARS`: Array of maturity years to be considered.
-
-
-## Screenshot
-![image](https://github.com/JozefJarosciak/Blur_XENFT_Finder/assets/3492464/dc76476f-8601-49a5-abbe-eb00b57d2da4)
 
 ## Installation
 To run the XENFT Finder script, you need Python installed on your system, along with a few additional libraries. Follow these steps to set up the environment:
